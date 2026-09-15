@@ -688,7 +688,7 @@ img {
 
   border-radius: 30px;
 
-  background: rgba(88, 169, 135, 0.2);
+  background: rgba(40, 106, 200, 0.2);;
 
   z-index: 1;
 }
@@ -850,9 +850,9 @@ img {
 
   border-radius: 11px;
 
-  background: rgba(88, 169, 135, 0.13);
+  background: rgba(40, 106, 200, 0.2);;
 
-  color: #269b6d;
+  color: var(--primary);
 }
 
 .skill-title h3 {
@@ -888,7 +888,7 @@ img {
 .skill-box li::before {
   content: "✓";
 
-  color: var(--accent);
+  color: var(--primary);
 
   font-weight: 800;
 
