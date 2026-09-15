@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Kishan Kumar | Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Website Logo / Favicon -->
+    <link rel="icon" type="image/png" href="assets/logo2.png">
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+      <div class="nav-container">
+        <!-- <a href="#home" class="logo logo_cont"><img src="assets/logo2.png" width="30px" height="30px" alt="Portfolio Logo"> Kishan <span>Kumar</span> </a> -->
+        <a href="#home" class="logo logo_cont"><img src="assets/logo2.png" width="40px" height="40px" alt="Portfolio Logo"></a>
+
+        <nav class="nav-links" id="navLinks">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <!-- Hamburger -->
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Mobile menu overlay -->
+
+    <div class="mobile-menu" id="mobileMenu">
+      <button class="close-menu" id="closeMenu" aria-label="Close menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="mobile-nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <main>
+      <!-- ================= HERO SECTION ================= -->
+
+      <section class="hero section" id="home">
+        <div class="hero-container">
+          <div class="hero-content">
+            <p class="small-heading">HELLO, I'M</p>
+
+            <h1>Kishan <span>Kumar</span></h1>
+
+            <h2>SAP MM Senior Analyst | Master Data & P2P Specialist</h2>
+
+            <p class="hero-description">
+            I work with SAP S/4HANA and ECC, managing master data, procurement, and inventory processes. I enjoy maintaining accurate data, resolving SAP issues, and supporting smooth business operations through efficient and reliable processes.</p>
+
+            <!-- Buttons -->
+
+            <div class="hero-buttons">
+              <!-- Replace number -->
+              <a
+                href="https://wa.me/919717385792"
+                target="_blank"
+                class="btn primary-btn"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+                Contact Me
+              </a>
+
+              <a href="downloads/resume.pdf" download class="btn secondary-btn">
+                <i class="fa-solid fa-download"></i>
+                Download Resume
+              </a>
+            </div>
+
+            <!-- Social Icons -->
+
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                aria-label="LinkedIn"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+
+              <a href="mailto:kp432kumar@gmail.com" aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+
+              <a href="tel:+919717385792" aria-label="Phone">
+                <i class="fa-solid fa-phone"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Profile Image -->
+
+          <div class="hero-image-wrapper">
+            <div class="image-decoration"></div>
+
+            <div class="hero-image">
+              <img src="assets/profile_photo.jpeg" alt="Profile photo" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= ABOUT SECTION ================= -->
+
+      <section class="about section" id="about">
+        <div class="section-heading">
+          <p class="section-label">ABOUT ME</p>
+
+          <h2>What I <span>Do</span></h2>
+
+          <p>
+            An experienced SAP MM professional specializing in master data, procurement, inventory, and business process support.
+          </p>
+        </div>
+
+        <div class="role-grid">
+          <!-- Card 1 -->
+
+          <div class="role-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-gears"></i>
+            </div>
+
+            <h3>SAP MM Operations</h3>
+
+            <p>Manage SAP S/4HANA & ECC processes across materials, procurement, and inventory.</p>
+          </div>
+
+          <!-- Card 2 -->
+
+          <div class="role-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-database"></i>
+            </div>
+
+            <h3>Master Data Management</h3>
+
+            <p>
+              Create and maintain Material, Vendor & PIR data with accuracy and integrity.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+
+          <div class="role-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-arrows-rotate"></i>
+            </div>
+
+            <h3>Procure-to-Pay</h3>
+
+            <p>
+              Handle PR, PO, GRN & Invoice Verification to support smooth procurement operations.
+            </p>
+          </div>
+
+          <!-- Card 4 -->
+
+          <div class="role-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+
+            <h3>Data & User Support</h3>
+
+            <p>
+              Resolve master-data issues, perform reconciliation, generate reports, and support users.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SKILLS SECTION ================= -->
+
+      <section class="skills section" id="skills">
+        <div class="section-heading">
+          <p class="section-label">MY SKILLS</p>
+
+          <h2>Tools & <span>Expertise</span></h2>
+
+          <p>
+            A practical collection of SAP tools and skills focused on master data, procurement, inventory management, and business operations.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- SAP MM -->
+
+          <div class="skill-box">
+            <div class="skill-title">
+              <i class="fa-solid fa-gears"></i>
+              <h3>SAP MM</h3>
+            </div>
+
+            <ul>
+              <li>SAP S/4HANA & ECC</li>
+              <li>Material Management</li>
+              <li>SAP T-Codes</li>
+              <li>SAP Business One</li>
+            </ul>
+          </div>
+
+          <!-- MASTER DATA -->
+
+          <div class="skill-box">
+            <div class="skill-title">
+              <i class="fa-solid fa-database"></i>
+              <h3>Master Data</h3>
+            </div>
+
+            <ul>
+              <li>Material Master</li>
+              <li>Vendor Master</li>
+              <li>Purchase Info Records</li>
+              <li>Data Accuracy</li>
+            </ul>
+          </div>
+
+          <!-- Procure-to-Pay -->
+
+          <div class="skill-box">
+            <div class="skill-title">
+             <i class="fa-solid fa-arrows-rotate"></i>
+             <h3>Procure-to-Pay</h3>
+            </div>
+
+            <ul>
+              <li>Purchase Requisitions</li>
+              <li>Purchase Orders</li>
+              <li>Goods Receipt</li>
+              <li>Invoice Verification</li>
+            </ul>
+          </div>
+
+          <!-- Inventory & Reporting -->
+
+          <div class="skill-box">
+            <div class="skill-title">
+              <i class="fa-solid fa-chart-line"></i>
+              <h3>Inventory & Reporting</h3>
+            </div>
+
+            <ul>
+              <li>Inventory Management</li>
+              <li>Stock Transfers</li>
+              <li>SAP Reporting</li>
+              <li>Advanced Excel</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- ================= QUALIFICATION ================= -->
+
+        <div class="qualification">
+          <div class="qualification-image">
+            <!-- Replace qualification.jpg -->
+            <img src="assets/workspace.jpg" alt="Qualification" />
+          </div>
+
+          <div class="qualification-content">
+            <p class="section-label">QUALIFICATION</p>
+
+            <h2>Education & <span>Background</span></h2>
+            
+
+            <div class="qualification-details">
+              <div class="qualification-item">
+                <i class="fa-solid fa-user-graduate"></i>
+
+                <div>
+                  <h3>Master of Business Administration</h3>
+                  <p>Operations & Supply Chain Management — MDU</p>
+                </div>
+              </div>
+
+              <div class="qualification-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+
+                <div>
+                  <h3>Bachelor of Computer Applications (BCA)</h3>
+                  <p>Maharshi Dayanand University (MDU)</p>
+                </div>
+              </div>
+
+              <div class="qualification-item">
+                <i class="fa-solid fa-school"></i>
+
+                <div>
+                  <h3>Senior Secondary & Secondary School</h3>
+                  <p>
+                    Haryana Board of School Education (HBSE)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= PROJECTS SECTION ================= -->
+
+      <!-- <section class="projects section" id="projects">
+        <div class="section-heading">
+          <p class="section-label">MY WORK</p>
+
+          <h2>Selected <span>Projects</span></h2>
+
+          <p>
+            A few examples of projects demonstrating analytical, reporting and
+            technical skills.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="fa-solid fa-chart-simple"></i>
+            </div>
+
+            <h3>Sales Dashboard</h3>
+
+            <p>
+              An interactive dashboard designed to analyse sales, revenue,
+              targets and performance trends.
+            </p>
+
+            <a href="#" class="project-link">
+              View Project
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="fa-solid fa-database"></i>
+            </div>
+
+            <h3>Data Analysis Report</h3>
+
+            <p>
+              A structured analysis project involving data cleaning,
+              calculations and business insights.
+            </p>
+
+            <a href="#" class="project-link">
+              View Project
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="fa-solid fa-file-lines"></i>
+            </div>
+
+            <h3>MIS Reporting System</h3>
+
+            <p>
+              A reporting solution designed to simplify recurring management
+              reports and improve data visibility.
+            </p>
+
+            <a href="#" class="project-link">
+              View Project
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- ================= CONTACT SECTION ================= -->
+
+      <section class="contact section" id="contact">
+        <div class="contact-container">
+          <div class="contact-content">
+            <p class="section-label">GET IN TOUCH</p>
+
+            <h2>Let's Work <span>Together</span></h2>
+
+            <p>
+              Interested in SAP MM, master data or business operations?
+              Feel free to reach out and connect.
+            </p>
+          </div>
+
+          <div class="contact-actions">
+            <a
+              href="https://wa.me/919717385792"
+              target="_blank"
+              class="btn primary-btn"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+              WhatsApp Me
+            </a>
+
+            <a href="mailto:kp432kumar@gmail.com" class="btn secondary-btn">
+              <i class="fa-solid fa-envelope"></i>
+              Send Email
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <a href="#home" class="logo"> Port<span>folio.</span> </a>
+
+          <p>SAP MM Professional · MDM · P2P · Inventory Management</p>
+        </div>
+
+        <div class="footer-contact">
+          <a href="mailto:yourname@email.com">
+            <i class="fa-solid fa-envelope"></i>
+            kp432kumar@gmail.com
+          </a>
+
+          <a href="https://www.linkedin.com/" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+            LinkedIn
+          </a>
+
+          <a href="https://github.com/" target="_blank">
+            <i class="fa-brands fa-github"></i>
+            GitHub
+          </a>
+
+          <a href="tel:+919999999999">
+            <i class="fa-solid fa-phone"></i>
+             +91 9717385792
+          </a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>© 2026 Kishan Kumar. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
